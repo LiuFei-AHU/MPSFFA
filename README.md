@@ -3,16 +3,16 @@
 # pipeline
 ![Pipeline of the MPSFFA](overall_framework.jpg)
 
-# How to run the code
+## How to run the code
 TODO
 
-# How to train
+## How to train
 TODO
 
-# How to test
+## How to test
 TODO
 
-# Data and Dataset description
+## Data and Dataset description
 TODO
 
 
