@@ -1,5 +1,19 @@
 # A multiplane and multiscale feature fusion attention model (MPSFFA)
 
+# pipeline
+![Pipeline of the MPSFFA](overall_framework.jpg)
+
+# How to run the code
+TODO
+
+# How to train
+TODO
+
+# How to test
+TODO
+
+# Data and Dataset description
+TODO
 
 
 ## Citation
