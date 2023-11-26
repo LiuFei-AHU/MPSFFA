@@ -1,4 +1,4 @@
-# A multiplane and multiscale feature fusion attention model (MPSFFA)
+# MPS-FFA: A multiplane and multiscale feature fusion attention network for Alzheimer’s disease prediction with structural MRI
 
 # The pipeline of the MPS-FFA
 ![Pipeline of the MPSFFA](overall_framework.jpg)
