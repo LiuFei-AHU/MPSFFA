@@ -11,7 +11,7 @@ Alzheimer’s disease, sMRI, Multiplane and multiscale, Attention fusion, Convol
 
 
 ## How to run the code
-TODO
+_Complete source code will be open for the society soon! :stuck_out_tongue_winking_eye:_
 
 ## How to train
 TODO
