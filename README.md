@@ -12,12 +12,11 @@ Alzheimer’s disease, sMRI, Multiplane and multiscale, Attention fusion, Convol
 
 ## How to run the code
 _Complete source code will be open for the society soon! :stuck_out_tongue_winking_eye:_
-### create conda environment
+1. create conda environment <br>
 conda create -n mpsffa
-
-### install pytorch cuda
+2. install pytorch cuda <br>
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-### install required lib
+3. install required lib<br>
 pip install -r requirements.txt
 
 ## How to train
