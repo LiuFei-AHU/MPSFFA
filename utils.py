@@ -47,8 +47,8 @@ def image_aug(img, augs):
 
 
 def get_warm_rate(input):  # input
-    warm_step = 5  # 预热步长
-    down_k = 0.5  # 预热后 学习率下降系数
+    warm_step = 5
+    down_k = 0.5
 
     if not (hasattr(get_warm_rate, 'indx')):
         get_warm_rate.indx = 1
