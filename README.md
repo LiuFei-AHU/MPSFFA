@@ -35,7 +35,7 @@ TODO
 
 ## Citation
 
-If you want to use the code of this project in your research or wish to refer to the results published in the paper, please use the following BibTeX entry. Thank you very much :kissing:.
+If you want to use the code in your research or wish to refer to the results published in the paper, please use the following BibTeX entry. Thank you very much :kissing:.
 
 ```BibTeX
 @article{LIU2023106790,
