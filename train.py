@@ -393,15 +393,3 @@ def test_mmse(opt, model, data_loader):
             pred = softmax(pred)
             preds.extend(pred.detach().cpu().numpy())
     return preds
-
-
-def test_cdr_age(model, data_loader):
-    preds = []
-    softmax = torch.nn.Softmax()
-    with torch.no_grad():
-        for batch_id, data in enumerate(data_loader):
-            x_data, _, cdr, age = data
-            pred, _, _ = model(x_data)
-            pred = softmax(pred)
-            preds.append(pred.numpy())
-    return preds
