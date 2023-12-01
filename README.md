@@ -1,5 +1,8 @@
 # MPS-FFA: A multiplane and multiscale feature fusion attention network for Alzheimer’s disease prediction with structural MRI
 
+ - It is my pleasure that if this project may give you a little inspiration. Hope you can follow it and do better works. :blush:
+ - The paper can be found at [here](https://www.sciencedirect.com/science/article/abs/pii/S001048252300255X)
+
 # The pipeline of the MPS-FFA
 ![Pipeline of the MPSFFA](overall_framework.jpg)
 
@@ -20,18 +23,19 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 pip install -r requirements.txt
 
 ## How to train
-TODO
+```python main.py```
 
 ## How to test
-TODO
+```python test.py```
 
-## Data and Dataset description
+## Data and Dataset details
+The dataset description and the pre-process operation will be provided soon.
 TODO
 
 
 ## Citation
 
-If you use Adaptive Teacher in your research or wish to refer to the results published in the paper, please use the following BibTeX entry.
+If you want to use the code of this project in your research or wish to refer to the results published in the paper, please use the following BibTeX entry. Thank you very much :kissing:.
 
 ```BibTeX
 @article{LIU2023106790,
@@ -46,4 +50,7 @@ If you use Adaptive Teacher in your research or wish to refer to the results pub
   author = {Fei Liu and Huabin Wang and Shiuan-Ni Liang and Zhe Jin and Shicheng Wei and Xuejun Li},
 ```
 F. Liu, H.B. Wang, S.N. Liang, Z. Jin, S.C. Wei, X.J. Li. MPS-FFA: A multiplane and multiscale feature fusion attention network for Alzheimer's disease prediction with structural MRI[J]. Computers in Biology and Medicine, 2023, 157:106790.
+
+## Issue
+If you have any questions or problems when using the code in this project, please feel free to send an email to <liu.jason0728@gmail.com> .
 
