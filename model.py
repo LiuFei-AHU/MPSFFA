@@ -1,4 +1,8 @@
-# baseline
+"""
+ This is the pytorch implementation of the MPS-FFA model.
+ Created by liufei@liu.jason0728@gmail.com.
+"""
+
 import torch
 from torch import nn
 import numpy as np
