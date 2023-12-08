@@ -34,9 +34,9 @@ class CosineSimilarityLoss(Module):
         if label.shape[0] == 2:
             d = torch.sqrt(torch.square(torch.nn.functional.cosine_similarity(input[0], input[1])))
             if label[0] != label[1]:
-                return torch.mean(1.0 / torch.log(-1 * d))
+                return -1 * torch.mean(1.0 / torch.log(d))
             else:
-                return torch.mean(torch.log(-1 * d))
+                return -1 * torch.mean(torch.log(d))
         return 0
 
 
