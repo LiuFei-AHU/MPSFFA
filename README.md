@@ -14,13 +14,15 @@ Alzheimer’s disease, sMRI, Multiplane and multiscale, Attention fusion, Convol
 
 
 ## How to run the code
-_Complete source code will be open soon! :stuck_out_tongue_winking_eye:_
+Here below shows how to run this demo code.:stuck_out_tongue_winking_eye:_
 1. create conda environment <br>
 conda create -n mpsffa
-2. install pytorch cuda <br>
+2. install Pytorch cuda <br>
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 3. install required lib<br>
 pip install -r requirements.txt
+
+Note: Maybe you would better customize the dataset or dataloader implementation according to your private data structure.
 
 ## How to train
 ```python main.py```
